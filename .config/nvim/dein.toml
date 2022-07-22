@@ -1,0 +1,26 @@
+[[plugins]]
+repo = 'preservim/NERDTree'
+
+
+[[plugins]]
+repo = 'junegunn/fzf'
+merged = 0
+
+[[plugins]]
+repo = 'EdenEast/nightfox.nvim'
+
+[[plugins]]
+repo = 'sainnhe/everforest'
+
+
+
+[[plugins]]
+repo = 'luochen1990/rainbow'
+
+
+[[plugins]]
+repo = 'neoclide/coc.nvim'
+rev = 'release'
+build = '''
+  git checkout release
+'''
